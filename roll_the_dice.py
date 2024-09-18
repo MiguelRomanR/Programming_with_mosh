@@ -11,7 +11,7 @@ while True:
         dice_2 = random.randint(1, 6)
         print(f'{dice_1}, {dice_2}')
     elif choice == 'n':
-        print(f'Good bye {name}, Thanks for playing')
+        print(f'\nGood bye {name}, Thanks for playing')
         break
     else:
         print('Invalid choice')
