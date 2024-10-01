@@ -30,8 +30,8 @@ while True:
         # Mostrar el total de veces que se ha jugado y la puntuación total
         print(
             f'\n  ➡️ You rolled the dice {count} times and got {points} points.')
-        print(f'\n  ➡️ Thanks for playing, come back later! 🙌\n')
+        print(f'\n  ➡️ Thanks for playing {user}, come back later! 🙌\n')
         break
 
     else:
-        print(f'\nPlease enter a valid option (y/n).')
+        print("\nPlease enter a valid option (y/n).")
